@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Gym Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Workouts</a></li>
+                <li><a href="#">Nutrition</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header>
+        <h1>Gym Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Workouts</a></li>
+                <li><a href="#">Nutrition</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon" id="menu-icon">
+            &#9776;
+        </div>
+    </header>
+    <div class="dropdown-menu" id="dropdown-menu">
+        <div class="close-icon" id="close-icon">&times;</div>
+        <nav class="dropdown-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Workouts</a></li>
+                <li><a href="#">Nutrition</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="dropdown-aside">
+            <div class="widget">
+                <h3>Recent Posts</h3>
+                <ul>
+                    <li><a href="#post-1">10 Best Exercises for Building Muscle</a></li>
+                    <li><a href="#post-2">5 Nutritional Tips for a Healthier Diet</a></li>
+                    <li><a href="#post-3">Effective Cardio Workouts for Fat Loss</a></li>
+                    <li><a href="#post-4">Top 5 Supplements for Muscle Growth</a></li>
+                    <li><a href="#post-5">The Importance of Rest and Recovery</a></li>
+                    <li><a href="#post-6">How to Stay Motivated for Long-Term Fitness</a></li>
+                    <li><a href="#post-7">HIIT vs. Steady-State Cardio: Which is Better?</a></li>
+                    <li><a href="#post-8">Yoga for Athletes: Benefits and Poses</a></li>
+                    <li><a href="#post-9">Best Warm-Up Exercises Before Lifting Weights</a></li>
+                </ul>
+            </div>
+            <div class="widget">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#category-workouts">Workouts</a></li>
+                    <li><a href="#category-nutrition">Nutrition</a></li>
+                    <li><a href="#category-supplements">Supplements</a></li>
+                    <li><a href="#category-recovery">Recovery</a></li>
+                    <li><a href="#category-cardio">Cardio</a></li>
+                    <li><a href="#category-motivation">Motivation</a></li>
+                    <li><a href="#category-yoga">Yoga</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <main>
+            <section id="category-workouts">
+                <h2>Workouts</h2>
+                <article id="post-1">
+                    <h3>10 Best Exercises for Building Muscle</h3>
+                    <p class="meta">by John Doe | August 18, 2024</p>
+                    <img src="post1.jpg" alt="Gym Workout">
+                    <p>Building muscle requires dedication, the right exercises, and proper nutrition. Here are the top 10 exercises to help you bulk up...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article id="post-3">
+                    <h3>Effective Cardio Workouts for Fat Loss</h3>
+                    <p class="meta">by Emily Johnson | August 16, 2024</p>
+                    <img src="post2.jpeg" alt="Cardio Workouts">
+                    <p>Cardio exercises are essential for burning fat and improving heart health. Here’s a guide to the most effective cardio workouts...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+                <article id="post-9">
+                    <h3>Best Warm-Up Exercises Before Lifting Weights</h3>
+                    <p class="meta">by David Clark | August 10, 2024</p>
+                    <img src="post3.jpg" alt="Warm-Up Exercises">
+                    <p>A proper warm-up is crucial for preventing injuries and maximizing performance. Learn the best exercises...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </section>
+            <section id="category-nutrition">
+                <h2>Nutrition</h2>
+                <article id="post-2">
+                    <h3>5 Nutritional Tips for a Healthier Diet</h3>
+                    <p class="meta">by Jane Smith | August 17, 2024</p>
+                    <img src="post4.jpeg" alt="Healthy Food">
+                    <p>Nutrition plays a crucial role in achieving your fitness goals. Incorporate these 5 tips to optimize your diet...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </section>
+            <section id="category-supplements">
+                <h2>Supplements</h2>
+                <article id="post-4">
+                    <h3>Top 5 Supplements for Muscle Growth</h3>
+                    <p class="meta">by Michael Lee | August 15, 2024</p>
+                    <img src="post5.webp" alt="Supplements">
+                    <p>Supplements can enhance your muscle growth when combined with the right workout regimen. Discover the top 5 supplements...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </section>
+            <section id="category-recovery">
+                <h2>Recovery</h2>
+                <article id="post-5">
+                    <h3>The Importance of Rest and Recovery</h3>
+                    <p class="meta">by Sarah Williams | August 14, 2024</p>
+                    <img src="post6.jpeg" alt="Rest and Recovery">
+                    <p>Recovery is just as important as the workout itself. Learn why rest is critical for muscle growth and overall health...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </section>
+            <section id="category-cardio">
+                <h2>Cardio</h2>
+                <article id="post-7">
+                    <h3>HIIT vs. Steady-State Cardio: Which is Better?</h3>
+                    <p class="meta">by Laura Harris | August 12, 2024</p>
+                    <img src="post7.jpeg" alt="HIIT vs Steady-State Cardio">
+                    <p>High-Intensity Interval Training (HIIT) and steady-state cardio are both effective, but which one should you focus on?...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </section>
+            <section id="category-motivation">
+                <h2>Motivation</h2>
+                <article id="post-6">
+                    <h3>How to Stay Motivated for Long-Term Fitness</h3>
+                    <p class="meta">by Mark Thompson | August 13, 2024</p>
+                    <img src="post8.jpeg" alt="Motivation">
+                    <p>Staying motivated can be challenging. Here are some tips to keep your fitness journey on track...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </section>
+            <section id="category-yoga">
+                <h2>Yoga</h2>
+                <article id="post-8">
+                    <h3>Yoga for Athletes: Benefits and Poses</h3>
+                    <p class="meta">by Emma Brown | August 11, 2024</p>
+                    <img src="post9.jpeg" alt="Yoga for Athletes">
+                    <p>Yoga can improve flexibility, balance, and strength. Explore the benefits and key poses for athletes...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+            </section>
+        </main>
+        <aside>
+            <div class="widget">
+                <h3>Recent Posts</h3>
+                <ul>
+                    <li><a href="#post-1">10 Best Exercises for Building Muscle</a></li>
+                    <li><a href="#post-2">5 Nutritional Tips for a Healthier Diet</a></li>
+                    <li><a href="#post-3">Effective Cardio Workouts for Fat Loss</a></li>
+                    <li><a href="#post-4">Top 5 Supplements for Muscle Growth</a></li>
+                    <li><a href="#post-5">The Importance of Rest and Recovery</a></li>
+                    <li><a href="#post-6">How to Stay Motivated for Long-Term Fitness</a></li>
+                    <li><a href="#post-7">HIIT vs. Steady-State Cardio: Which is Better?</a></li>
+                    <li><a href="#post-8">Yoga for Athletes: Benefits and Poses</a></li>
+                    <li><a href="#post-9">Best Warm-Up Exercises Before Lifting Weights</a></li>
+                </ul>
+            </div>
+            <div class="widget">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#category-workouts">Workouts</a></li>
+                    <li><a href="#category-nutrition">Nutrition</a></li>
+                    <li><a href="#category-supplements">Supplements</a></li>
+                    <li><a href="#category-recovery">Recovery</a></li>
+                    <li><a href="#category-cardio">Cardio</a></li>
+                    <li><a href="#category-motivation">Motivation</a></li>
+                    <li><a href="#category-yoga">Yoga</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Contact: info@gymblog.com</p>
+            <p>Follow us on 
+                <a href="#">Facebook</a>, 
+                <a href="#">Twitter</a>, 
+                <a href="#">Instagram</a>
+            </p>
+            <p>&copy; 2024 Gym Blog</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('menu-icon').addEventListener('click', function() {
+            document.getElementById('dropdown-menu').classList.add('active');
+        });
+        document.getElementById('close-icon').addEventListener('click', function() {
+            document.getElementById('dropdown-menu').classList.remove('active');
+        });
+    </script>
+</body>
+</html>
